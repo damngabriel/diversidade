@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diversity Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="text-content">
+                <h1>Diversidade</h1>
+                <p>
+                    Diversidade, em seu sentido mais amplo, refere-se à presença e à aceitação de uma ampla variedade de elementos, características e perspectivas em um determinado contexto. Essa abrangência pode incluir diferenças visíveis, como raça, gênero, idade, origem étnica, orientação sexual e habilidades físicas.
+                </p>
+            </div>
+            <div class="image-placeholder">
+                <img src="7287553.jpg" alt="Imagem representando diversidade">
+            </div>
+        </section>
+    </main>
+    <script>const mobileMenu = document.getElementById("mobile-menu");
+        const navLinks = document.querySelector(".nav-links");
+        
+        mobileMenu.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+        </script>
+</body>
+</html>
